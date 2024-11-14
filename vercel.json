@@ -2,6 +2,10 @@
     "builds":[
         {"src":"build","use":"@vercel/node"}
     ],
+    "engine":{
+        "node":"20.x",
+        "typescript":"3.2.1"
+    },
     "env":{
         "NODE_OPTIONS":"--openssl-legacy-provider"
     }
