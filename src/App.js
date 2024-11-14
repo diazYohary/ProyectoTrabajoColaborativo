@@ -118,4 +118,4 @@ function ChatMessage(props) {
   )
 }
 
-export default firebaseConfig;
+export default App;
